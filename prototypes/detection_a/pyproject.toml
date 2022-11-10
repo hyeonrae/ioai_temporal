@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "qray"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.3"
+torch = "^1.11.0"
+torchvision = "^0.12.0"
+streamlit = "^1.7.0"
+pandas = "^1.4.1"
+opencv-python = "^4.5.5"
+matplotlib = "^3.5.1"
+scikit-image = "^0.19.2"
+albumentations = "^1.1.0"
+torchsummary = "^1.5.1"
+scikit-learn = "^1.0.2"
+horovod = "^0.24.2"
+wandb = "^0.12.11"
+pycocotools = "^2.0.4"
+
+[tool.poetry.dev-dependencies]
+neovim = "^0.3.1"
+PyQt5 = "^5.15.6"
+setuptools = "^60.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

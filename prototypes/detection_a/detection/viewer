@@ -1,0 +1,2 @@
+#poetry run streamlit run viewer.py
+poetry run streamlit run test.py

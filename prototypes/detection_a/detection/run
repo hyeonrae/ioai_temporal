@@ -1,0 +1,5 @@
+#NCCL_DEBUG=INFO poetry run horovodrun -np 2 python main.py
+poetry run wandb login
+poetry run horovodrun -np 2 python main.py
+#poetry run python main.py
+#poetry run streamlit run main.py

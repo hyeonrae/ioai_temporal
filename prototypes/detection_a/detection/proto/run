@@ -1,0 +1,1 @@
+poetry run horovodrun -np 2 python sample.py

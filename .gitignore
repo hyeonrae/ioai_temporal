@@ -1,0 +1,12 @@
+# byte-compiled
+__pycache__/
+
+# data
+data/
+data_anony/
+
+# logs
+wandb/
+ckpt/
+tags
+poetry.lock
